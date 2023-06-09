@@ -40,3 +40,7 @@ select * from Address;
 
 --UC6
 Select * from Address where City = 'Buxar' or State = 'Bihar';
+
+--UC7
+select Count(*) from Address group by City, State;
+
