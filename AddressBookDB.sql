@@ -16,3 +16,11 @@ Email varchar(20)
 );
 
 select * from Address;
+
+--UC3
+Insert into Address(FirstName,lastName,Address,City,State,Zip,PhoneNumber,Email) values('Rakesh', 'Kumar', 'Buxar', 'Buxar', 'Bihar', '802134', '8978778789', 'rakp@gmail.com'); 
+Insert into Address(FirstName,lastName,Address,City,State,Zip,PhoneNumber,Email) values('Suresh', 'Kumar', 'Buxar', 'Buxar', 'Maharastra', '802134', '6767576567', 'rarp@gmail.com'); 
+Insert into Address(FirstName,lastName,Address,City,State,Zip,PhoneNumber,Email) values('Mahesh', 'Kumar', 'Buxar', 'Buxar', 'Bihar', '802134', '6597697789', 'radsp@gmail.com');
+Insert into Address(FirstName,lastName,Address,City,State,Zip,PhoneNumber,Email) values('Akash', 'Kumar', 'Buxar', 'Buxar', 'Karnataka', '802134', '8979698798', 'ffgd@gmail.com');  
+Insert into Address(FirstName,lastName,Address,City,State,Zip,PhoneNumber,Email) values('Ankit', 'Kumar', 'Buxar', 'Buxar', 'Bihar', '802134', '8978788789', 'rakrep@gmail.com'); 
+select * from Address;
