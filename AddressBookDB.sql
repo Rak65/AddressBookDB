@@ -60,3 +60,8 @@ select * from Address;
 
 --UC10
 select Count(*) from Address group by Type;
+
+--UC11
+Insert into Address(FirstName,lastName,Address,City,State,Zip,PhoneNumber,Email,Type) values('Sanjeev', 'Singh', 'Agra sector 7', 'UP', 'UP', '897987', '6987978979', 'ssanju@gmail.com', 'Friend');  
+Insert into Address(FirstName,lastName,Address,City,State,Zip,PhoneNumber,Email,Type) values('Abhishek', 'Sonu', '34 HSR layout', 'Bangalore', 'Karnataka', '560062', '4678689794', 'abhi@gmail.com', 'Family');
+select * from Address
