@@ -37,3 +37,6 @@ Select * from Address;
 --UC5
 Delete from Address where FirstName = 'Mukesh';
 select * from Address;
+
+--UC6
+Select * from Address where City = 'Buxar' or State = 'Bihar';
