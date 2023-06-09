@@ -24,3 +24,12 @@ Insert into Address(FirstName,lastName,Address,City,State,Zip,PhoneNumber,Email)
 Insert into Address(FirstName,lastName,Address,City,State,Zip,PhoneNumber,Email) values('Akash', 'Kumar', 'Buxar', 'Buxar', 'Karnataka', '802134', '8979698798', 'ffgd@gmail.com');  
 Insert into Address(FirstName,lastName,Address,City,State,Zip,PhoneNumber,Email) values('Ankit', 'Kumar', 'Buxar', 'Buxar', 'Bihar', '802134', '8978788789', 'rakrep@gmail.com'); 
 select * from Address;
+
+--UC4
+
+update Address set FirstName = 'Mukesh' where FirstName = 'Suresh';
+update Address set State = 'Rajsthan' where State = 'Karnataka';
+update Address set Email = 'radsp@gmail.com' where FirstName = 'Mahesh';
+update Address set City = 'Delhi' where PhoneNumber = '6597697789';
+update Address set PhoneNumber = '7417697896' where FirstName = 'Akash';
+Select * from Address;
