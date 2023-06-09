@@ -57,3 +57,6 @@ update Address set Type = 'Friend' where FirstName = 'Mahesh';
 update Address set Type = 'Family' where FirstName = 'Akash';
 update Address set Type = 'Frienf' where FirstName = 'Ankit';
 select * from Address;
+
+--UC10
+select Count(*) from Address group by Type;
