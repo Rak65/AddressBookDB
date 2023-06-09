@@ -33,3 +33,7 @@ update Address set Email = 'radsp@gmail.com' where FirstName = 'Mahesh';
 update Address set City = 'Delhi' where PhoneNumber = '6597697789';
 update Address set PhoneNumber = '7417697896' where FirstName = 'Akash';
 Select * from Address;
+
+--UC5
+Delete from Address where FirstName = 'Mukesh';
+select * from Address;
