@@ -46,3 +46,14 @@ select Count(*) from Address group by City, State;
 
 --UC8
 Select * from Address where City = 'Buxar' order by FirstName ASC;
+
+--UC9
+
+Alter table Address Add Type varchar(10);
+select * from Address
+
+update Address set Type = 'Profession' where FirstName = 'Rakesh';
+update Address set Type = 'Friend' where FirstName = 'Mahesh';
+update Address set Type = 'Family' where FirstName = 'Akash';
+update Address set Type = 'Frienf' where FirstName = 'Ankit';
+select * from Address;
